@@ -18,6 +18,7 @@ You will need the following pre-requisites:
    See the [pre-requisites steps document here](https://developers.google.com/gmail/api/quickstart/python)
    1. A [Google Cloud Platform project](https://developers.google.com/workspace/guides/create-project) with the API enabled. 
    2. Set up authorization credentials for a desktop application.
+      Download and replace `credentials.json` with the downloaded file.
    3. A Google account with Gmail enabled.
     
 ## Installation
