@@ -1,0 +1,20 @@
+#GMail manager
+
+
+## 1. Get email with label
+```
+sequenceDiagram
+    participant M as Main
+    participant G as GMail API
+    
+    rect rgb(105,105,105)
+        note right of M: Get labels
+        M->>G: users().labels()
+    end
+    
+    rect rgb(105,105,105)
+        note right of M: Get emails
+        M->>G: users().messages()
+        left right of G: per-batch
+    end
+```
